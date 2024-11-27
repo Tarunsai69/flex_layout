@@ -1,42 +1,50 @@
+#main{
+    background-color: chocolate;
+    border: 10px solid black;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    overflow: auto;
+}
+@media screen and (min-width:0px) and (max-width:450px) {
+    #main{
+        display: flex;
+        justify-content: center;
+    }
+    
+}
 img{
     height: 250px;
     width: 250px;
+    /* border: 10px solid; */
 }
-/* @media screen and (min-width:0px) and (max-width:425px){
-    .gc,.p2{
-        display: none;
-    }
-}
-@media screen and (min-width:426px) and (max-width:675px){
-    .og,.p2{
-        display: none;
-    }
-}
-@media screen and (min-width:675px){
-    .og,.gc{
-        display: none;
-    }
-} */
- #color{
-    border: 8px solid black;
+#class1:hover{
+    border: 10px solid greenyellow;
     padding: 30px;
-    background-color: chocolate;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap:30px;
-    overflow:auto;
+    background-color:burlywood;
+    border-radius: 30px;  
+    box-shadow: 10px 5px 10px black;
+
+}
+#class2:hover{
+    border: 10px solid dimgray; 
+    padding: 30px;
+    background-color:burlywood;
+    border-radius: 30px;
+    box-shadow: 10px 5px 10px black;
+}
+#class3:hover{
+     border: 10px solid green; 
+    padding: 30px;
+    background-color:burlywood;
+    border-radius: 30px;
+    box-shadow: 10px 5px 10px black;
     
- }
- #img1{
-    border: 7px solid black;
-    padding: 30px;
-    background-color: cornsilk;
-    box-shadow: 5px 5px 9px blue;
-    /* display: flex;
-    justify-content: center; */
- }
- #name{
+}
+#name{
     border: 3px solid black;
     text-align: center;
     border-radius: 30px;
@@ -44,26 +52,21 @@ img{
     font-size: larger;
     font-weight: bold;
     background-color:white;
- }
- #img2{
-    border: 7px solid black;
-    padding: 30px;
-    background-color: cornsilk;
-    box-shadow: 5px 5px 9px blue;
-    
- }
- #img3{
-    border: 7px solid black;
-    padding: 30px;
-    background-color: cornsilk;
-    box-shadow: 5px 5px 9px blue;
- }
- #para{
-    border: 3px solid blue;
-    width: 350px;
+}
+.sec{
+    background-color: rgb(45, 55, 172);
+    padding: 5px;
+    border-radius: 20px;
+
+}
+#para{
+    border: 3px solid black;
+    width: 450px;
     overflow-y: scroll;
     height: 200px;
- }
- ::-webkit-scrollbar{
+    border-radius: 30px;
+    background-color: beige;
+}
+::-webkit-scrollbar{
     display: none;
- }
+}
